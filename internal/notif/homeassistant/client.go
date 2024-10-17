@@ -30,7 +30,7 @@ func New(config *model.NotifHomeAssistant, meta model.Meta) notifier.Notifier {
 
 // Name returns notifier's name
 func (c *Client) Name() string {
-    return "mqtt"
+    return "homeassistant"
 }
 
 // Send creates and sends a mqtt notification with an entry
